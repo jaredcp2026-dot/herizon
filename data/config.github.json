@@ -79,6 +79,30 @@
         "category": "geopolitics"
       },
       {
+        "name": "War on the Rocks",
+        "url": "https://warontherocks.com/feed/",
+        "enabled": true,
+        "category": "geopolitics"
+      },
+      {
+        "name": "Nikkei Asia",
+        "url": "https://asia.nikkei.com/rss/feed/nar",
+        "enabled": true,
+        "category": "geopolitics"
+      },
+      {
+        "name": "Semafor",
+        "url": "https://www.semafor.com/rss.xml",
+        "enabled": true,
+        "category": "geopolitics"
+      },
+      {
+        "name": "Al-Monitor",
+        "url": "https://www.al-monitor.com/rss",
+        "enabled": true,
+        "category": "geopolitics"
+      },
+      {
         "name": "LWN.net (subscriber full-text)",
         "url": "https://lwn.net/headlines/full_text?key=${LWN_KEY}",
         "enabled": false,
@@ -125,15 +149,15 @@
     }
   },
   "filtering": {
-    "ai_score_threshold": 5.5,
+    "ai_score_threshold": 5.0,
     "time_window_hours": 24,
-    "max_items": 20,
+    "max_items": 22,
     "category_groups": {
-      "geopolitics": { "limit": 10, "categories": ["geopolitics"] },
-      "ai-tools": { "limit": 6, "categories": ["ai-tools"] }
+      "geopolitics": { "limit": 18, "categories": ["geopolitics"] },
+      "ai-tools": { "limit": 8, "categories": ["ai-tools"] }
     },
     "default_group": "other",
-    "default_group_limit": 4
+    "default_group_limit": 2
   },
   "webhook": {
     "enabled": false,
